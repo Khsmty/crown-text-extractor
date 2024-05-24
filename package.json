@@ -1,0 +1,21 @@
+{
+	"name": "crown-text-extractor",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "pnpm build && pnpm onlystart",
+		"build": "tsc",
+		"onlystart": "node dist/index.js",
+		"dev": "nodemon"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.7.3",
+		"@types/node": "^20.12.12",
+		"nodemon": "^3.1.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"clipboardy": "^4.0.0",
+		"puppeteer": "^22.10.0"
+	}
+}
