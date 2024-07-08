@@ -37,6 +37,7 @@ rl.on("close", async () => {
 
 	const result = text
 		.replace(/\n/g, "")
+		.replace(/ {24}/g, "\n\n")
 		.split("/")
 		.map((text) => text.trim())
 		.join("\n");
