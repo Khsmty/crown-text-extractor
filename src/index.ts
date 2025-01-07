@@ -1,6 +1,5 @@
 import readline from "node:readline";
 import puppeteer from "puppeteer";
-// import clipboard from "clipboardy";
 
 const rl = readline.createInterface({
 	input: process.stdin,
